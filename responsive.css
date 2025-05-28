@@ -1,0 +1,70 @@
+@media(width >=500px){
+    .sidepanel, .openbtn{
+        visibility: hidden;
+    }
+    #navbar{
+        visibility: visible;
+    }
+    .container{
+        min-height: 100%;
+        background-size: cover;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #navbar{
+        display: none;
+        visibility: hidden;
+    }
+    .sidepanel, .openbtn{
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 600px){
+     form{
+        border: 1px solid grey;
+        border-radius: 20px;
+        background-color: transparent;
+        margin-inline: 50px;
+        padding-top: 50px;
+        max-width: 400px; 
+    }
+    form input{
+        max-width: 270px;
+    }
+    
+}
+@media(width >=1020px){
+
+     form input{
+        max-width: 500px;
+    }
+    form{
+        min-width: 500px;
+        height: auto;
+        justify-self: center;
+    }
+}
+
+@media(width <= 1020px){
+     form{
+        min-width: 400px;
+        height: auto;
+        justify-self: center; 
+    }
+    .info svg{
+        width: 36px;
+        height: auto;
+        margin-left: -100px;
+        color: #fff;
+}
+    .info p{
+        font-size: 14px;
+        color: white;
+    }
+    footer{
+        font-size: 8px;
+    }
+}
