@@ -1,0 +1,55 @@
+.container h1{
+    animation: grow 1.5s ease-in;
+}
+@keyframes grow {
+    from{
+        opacity: 0%;
+        transform: translateX(500px);
+    }
+    to{
+        opacity:100%;
+    }
+}
+
+.content h2{
+    animation: glide 1.5s ease-in-out;
+}   
+
+@keyframes glide {
+    from{
+        transform: translateX(400px);
+        opacity: 0%;
+        scale: 0.3;
+    }
+    to{
+        opacity: 100%;
+        scale: 1;
+    }
+}
+
+.content iframe{
+    animation: Todown 1.8s ease-in-out;
+}
+
+@keyframes Todown {
+    from{
+        opacity: 0%;
+        transform: translateY(-200px);
+    }
+    to{
+        
+    }
+}
+
+.content .card:(1)th-child {
+    animation: Left 1.5s ease-in-out;
+}
+
+.content .card:(2)th-child {
+    animation: Right 1.5s ease-in-out;
+}
+
+.content .card:(3)th-child {
+    animation: Left 1.5s ease-in-out;
+}
+
