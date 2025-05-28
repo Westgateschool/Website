@@ -41,15 +41,4 @@
     }
 }
 
-.content .card:(1)th-child {
-    animation: Left 1.5s ease-in-out;
-}
-
-.content .card:(2)th-child {
-    animation: Right 1.5s ease-in-out;
-}
-
-.content .card:(3)th-child {
-    animation: Left 1.5s ease-in-out;
-}
 
