@@ -1,9 +1,9 @@
 @media(width >=500px){
     .sidepanel, .openbtn{
-        visibility: visible;
+        visibility: hidden;
     }
     #navbar{
-        visibility: hidden;
+        visibility: visible;
     }
     .container{
         min-height: 100%;
@@ -15,10 +15,10 @@
 @media only screen and (max-width: 500px){
     #navbar{
         display: none;
-        visibility: visible;
+        visibility: hidden;
     }
     .sidepanel, .openbtn{
-        visibility: hidden;
+        visibility: visible;
     }
 }
 
