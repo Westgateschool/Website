@@ -1,0 +1,18 @@
+.content{
+    background: url(images/artificial-foliage-from-paper-style-with-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    line-height: normal;
+    color: rgb(34, 34, 34);
+    padding: 20px;
+}
+
+.details{
+    background: url(images/abstract-bluish-paint-background-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px;
+    line-height: 30px;
+    color: rgb(34, 34, 34);
+}
