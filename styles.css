@@ -29,11 +29,13 @@
     margin-right: 20px;
     position: sticky;
     margin-top: -90px;
+    list-style-type: none;
 }
 
 #navbar ul li{
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
     
 }
 
@@ -41,6 +43,8 @@
     font-weight: 600;
     font-size: 18px;
     color: white;
+    list-style-type: none;
+    
 }
 #navbar ul li a:hover{
     color: #492ec0;
@@ -48,7 +52,7 @@
 }
 
 #navbar a.active{
-    background-color: rgb(180, 180, 180);
+    background-color: orangered;
 } 
 
 ul li a{
@@ -342,6 +346,7 @@ iframe{
     padding-inline: auto;
     padding-inline: 1%;
     width: 100%;
+    border: none;
 }
 .slide a svg{
     height: 20px;
