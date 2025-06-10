@@ -6,6 +6,10 @@
     font-family: poppins, sans-serif;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 #header{
     overflow: hidden;
     position: fixed;
@@ -42,7 +46,7 @@
 #navbar ul li a{
     font-weight: 600;
     font-size: 18px;
-    color: white;
+    color: dodgerblue;
     list-style-type: none;
     
 }
